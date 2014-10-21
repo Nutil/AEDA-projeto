@@ -17,5 +17,9 @@ public:
 	int getDia(){ return dia; }
 	int getMes(){ return mes; }
 	int getAno(){ return ano; }
+
+	/*Metodos nao get*/
+	int Data::dateToMinutes(Data date);
+	int Data::dateDifferenceS(Data date1, Data date2);
 };
 #endif;
