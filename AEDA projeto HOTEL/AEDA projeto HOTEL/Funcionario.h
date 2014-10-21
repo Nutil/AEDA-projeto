@@ -2,18 +2,22 @@
 #define FUNCIONARIO_H_
 #include <string>
 #include <vector>
+#include <iostream>
+#include "Espaco.h"
+#include "Pessoa.h"
 
 using namespace std;
 
-class Funcionario{
+class Funcionario:public Pessoa{
 
-	string nomeFuncionario;
-	vector<Espaco> espacosResponsavel; //O vector com os espaços pelo qual é responsavel
+	string nome;
+	vector<Espaco> espacos; //O vector com os espaços pelo qual é responsavel
 public:
 	/* Construtor */
-	Funcionario(string nomeFuncionario, vector<Espaco> espacosResponsavel);
+	Funcionario(string nome);
 
 	/* Metodos get */
-	string getNomeFuncionario(){ return nomeFuncionario; }
-	vector<Espaco> getEspacosResponsavel(){ return espacosResponsavel; }
+	string getNome(){ return nome; }
+	vector<Espaco> getEspacos(){ return espacos; }
 };
+#endif;

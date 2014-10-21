@@ -1,7 +1,10 @@
 #ifndef QUARTO_H_
 #define QUARTO_H_
+#include <iostream>
 #include <string>
 #include <vector>
+#include "Espaco.h"
+
 
 using namespace std;
 
@@ -16,3 +19,4 @@ public:
 	bool getDuplo(){ return duplo; }
 	bool getFrente(){ return frente; }
 };
+#endif;

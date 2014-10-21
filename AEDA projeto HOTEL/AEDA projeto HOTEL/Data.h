@@ -2,6 +2,7 @@
 #define Data_H_
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -17,3 +18,4 @@ public:
 	int getMes(){ return mes; }
 	int getAno(){ return ano; }
 };
+#endif;

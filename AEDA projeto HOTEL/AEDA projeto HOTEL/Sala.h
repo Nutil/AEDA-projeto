@@ -1,7 +1,10 @@
 #ifndef SALA_H_
 #define SALA_H_
+#include <iostream>
 #include <string>
 #include <vector>
+#include "Espaco.h"
+
 
 using namespace std;
 
@@ -19,3 +22,4 @@ public:
 	bool getVideo(){ return video; }
 	bool getAudio(){ return audio; }
 };
+#endif;

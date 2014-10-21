@@ -2,6 +2,10 @@
 #define HOTEL_H_
 #include <string>
 #include <vector>
+#include <iostream>
+#include "Espaco.h"
+#include "Funcionario.h"
+#include "Cliente.h"
 
 using namespace std;
 
@@ -20,3 +24,4 @@ public:
 	vector<Cliente> getClientes(){ return clientes; }
 
 };
+#endif;

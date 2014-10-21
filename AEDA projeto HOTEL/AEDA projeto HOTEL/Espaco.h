@@ -2,6 +2,7 @@
 #define ESPACO_H_
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -17,3 +18,4 @@ public:
 	string getNomeEspaco(){ return nomeEspaco; }
 	int getPreco(){ return preco; }
 };
+#endif;
