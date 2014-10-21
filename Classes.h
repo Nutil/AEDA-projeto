@@ -29,6 +29,7 @@ public:
 	/*Metodos get*/
 	string getNomeEspaco(){return nomeEspaco;}
 	int getPreco(){return preco;}
+	int bla = 0;
 };
 
 class Quarto: public Espaco{
