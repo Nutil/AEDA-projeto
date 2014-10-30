@@ -19,5 +19,9 @@ public:
 	void Funcionario::set_Ordenado(int valor);
 
 
+	/* Metodos read */
+	stringstream info();
+
+
 };
 #endif;

@@ -4,10 +4,12 @@
 #include <vector>
 #include <iostream>
 #include "Espaco.h"
+#include <sstream>
 
 using namespace std;
 
 class Pessoa{
+protected:	
 	string nome;
 	vector<Espaco> espacos;
 public:
@@ -18,5 +20,8 @@ public:
 	/* Metodos get */
 	string getNome();
 	vector<Espaco> getEspacos();
+
+	/* Metodos read */
+	virtual stringstream info() = 0;
 };
 #endif

@@ -14,7 +14,11 @@ class Cliente:public Pessoa{
 public:
 	/* Construtor e metodos ADD*/
 	Cliente(string nome);
+
 	/* Metodos get */
 	int getTotal(){ return this->total_a_pagar; }
+
+	/* Metodos read*/
+	stringstream info();
 };
 #endif;

@@ -2,8 +2,8 @@
 #include<stdio.h>
 
 using namespace std;
-
-Funcionario::Funcionario(string nome) :Pessoa(nome){//Construtor
+//Construtor
+Funcionario::Funcionario(string nome) :Pessoa(nome){
 	this->ordenado = 0;
 }
 
@@ -11,3 +11,22 @@ void Funcionario::set_Ordenado(int valor){
 	ordenado = valor;
 
 }
+
+stringstream Funcionario::info(){
+	stringstream ss;
+
+	ss << "Funcionario " << nome << " : " << "Ordenado: " << ordenado << endl;//formatar a string
+	ss << "Espacos atribuidos : ";
+
+	if (espacos.size() == 0){//se nao tiver espacos atribuidos
+		ss << " none" << endl;
+		return ss;
+	}
+
+	for (int i = 0; i < espacos.size(); i++){//percorre vetor e cria a string
+		ss <<  espacos[i].getNomeEspaco() << " , ";
+	}
+	return ss;
+
+}
+

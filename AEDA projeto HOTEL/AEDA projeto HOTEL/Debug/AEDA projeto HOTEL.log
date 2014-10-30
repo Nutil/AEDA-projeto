@@ -1,12 +1,11 @@
-﻿Build started 30/10/2014 18:17:56.
+﻿Build started 30/10/2014 18:38:03.
      1>Project "C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\AEDA projeto HOTEL\AEDA projeto HOTEL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Hotel.cpp
-         Hotel.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cliente.cpp
+         Cliente.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(21): warning C4018: '<' : signed/unsigned mismatch
        Link:
          D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.lib" /MACHINE:X86 Debug\Cliente.obj
-         Debug\Data.obj
          Debug\Espaco.obj
          Debug\Funcionario.obj
          Debug\Hotel.obj
@@ -19,4 +18,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:07.75
+Time Elapsed 00:00:03.31
