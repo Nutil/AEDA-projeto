@@ -21,7 +21,7 @@ stringstream Cliente::info(){
 	}
 	
 	for (int i = 0; i < espacos.size(); i++){//percorre vetor e cria a string
-		ss << " <" << espacos[i].getNomeEspaco() << "," << espacos[i].getPreco() << ">,";
+		ss << " <" << espacos[i]->getNomeEspaco() << "," << espacos[i]->getPreco() << ">,";
 	}
 	return ss;
 }

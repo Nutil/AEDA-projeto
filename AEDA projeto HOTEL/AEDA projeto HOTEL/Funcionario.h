@@ -10,8 +10,6 @@ using namespace std;
 
 class Funcionario:public Pessoa{
 
-	string nome;
-	vector<Espaco> espacos; //O vector com os espaços pelo qual é responsavel
 	int ordenado;
 public:
 	/* Construtor e metodos construçao*/

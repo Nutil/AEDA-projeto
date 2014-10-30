@@ -11,11 +11,11 @@ using namespace std;
 class Pessoa{
 protected:	
 	string nome;
-	vector<Espaco> espacos;
+	vector<Espaco *> espacos;
 public:
 	/* Construtor e metodos construçao*/
 	Pessoa(string nome);
-	void add_espaco(Espaco espaco);
+	bool add_espaco(Espaco espaco);
 
 	/* Metodos get */
 	string getNome();
@@ -23,5 +23,8 @@ public:
 
 	/* Metodos read */
 	virtual stringstream info() = 0;
+
+	/* Metodos delete */
+	int remove_espaco(Espaco espaco);
 };
 #endif
