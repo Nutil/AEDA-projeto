@@ -12,12 +12,12 @@ class Funcionario:public Pessoa{
 
 	string nome;
 	vector<Espaco> espacos; //O vector com os espaços pelo qual é responsavel
+	int ordenado;
 public:
-	/* Construtor */
+	/* Construtor e metodos construçao*/
 	Funcionario(string nome);
+	void Funcionario::set_Ordenado(int valor);
 
-	/* Metodos get */
-	string getNome(){ return nome; }
-	vector<Espaco> getEspacos(){ return espacos; }
+
 };
 #endif;

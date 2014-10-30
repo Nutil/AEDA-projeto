@@ -9,16 +9,12 @@
 using namespace std;
 
 class Cliente:public Pessoa{
-	string nome;
-	vector<Espaco> espacos;
-	int total_a_pagar; //  Era um bonus fixe, poder saber quanto vai ter de pagar por tudo junto
-public:
-	/* Construtor */
-	Cliente(string nome, int total_a_pagar);
 
+	int total_a_pagar;
+public:
+	/* Construtor e metodos ADD*/
+	Cliente(string nome);
 	/* Metodos get */
-	string getNome(){ return nome; }
-	vector<Espaco> getEspacos() { return espacos; }
-	int getTotal(){ return total_a_pagar; }
+	int getTotal(){ return this->total_a_pagar; }
 };
 #endif;
