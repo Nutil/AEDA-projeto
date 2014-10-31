@@ -7,12 +7,11 @@ Funcionario::Funcionario(string nome) :Pessoa(nome){
 	this->ordenado = 0;
 }
 
-void Funcionario::set_Ordenado(int valor){
-	ordenado = valor;
-
+void Funcionario::update_Ordenado(int valor){
+	this->ordenado = valor;
 }
 
-stringstream Funcionario::info(){
+string Funcionario::info(){
 	stringstream ss;
 
 	ss << "Funcionario " << nome << " : " << "Ordenado: " << ordenado << endl;//formatar a string
@@ -20,13 +19,13 @@ stringstream Funcionario::info(){
 
 	if (espacos.size() == 0){//se nao tiver espacos atribuidos
 		ss << " none" << endl;
-		return ss;
+		return ss.str();
 	}
 
 	for (int i = 0; i < espacos.size(); i++){//percorre vetor e cria a string
 		ss << espacos[i]->getNomeEspaco() << " , ";
 	}
-	return ss;
+	return ss.str();
 
 }
 

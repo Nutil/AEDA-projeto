@@ -15,16 +15,23 @@ protected:
 public:
 	/* Construtor e metodos construçao*/
 	Pessoa(string nome);
-	bool add_espaco(Espaco espaco);
+
 
 	/* Metodos get */
-	string getNome();
-	vector<Espaco> getEspacos();
+	string getNome(){ return this->nome;}
+	vector<Espaco *> getEspacos(){ return this->espacos;}
 
 	/* Metodos read */
-	virtual stringstream info() = 0;
+	virtual string info() = 0;
 
 	/* Metodos delete */
-	int remove_espaco(Espaco espaco);
+	bool delete_espacos();
+
+	/* Metodos update */
+	bool remove_espaco(Espaco espaco);
+	bool add_espaco(Espaco espaco);
+	void update_nome(string nome);
+	bool update_espacos(vector<Espaco *> vetor);
+	
 };
 #endif

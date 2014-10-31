@@ -4,6 +4,7 @@
 #include <vector>
 #include <iostream>
 #include "Espaco.h"
+#include "Pessoa.h"
 #include "Funcionario.h"
 #include "Cliente.h"
 
@@ -16,7 +17,7 @@ class Hotel{
 	vector<Cliente *> clientes; //nao sei se é necessario
 public:
 	/*construtor*/
-	Hotel();
+	//nao precisa
 
 	/*Metodos get*/
 	vector<Espaco *> getEspacos(){ return espacos; }

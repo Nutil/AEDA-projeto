@@ -9,16 +9,16 @@
 using namespace std;
 
 class Funcionario:public Pessoa{
-
 	int ordenado;
 public:
 	/* Construtor e metodos construçao*/
 	Funcionario(string nome);
-	void Funcionario::set_Ordenado(int valor);
-
 
 	/* Metodos read */
-	stringstream info();
+	string info();
+
+	/* Metodos update */
+	void Funcionario::update_Ordenado(int valor);
 
 
 };

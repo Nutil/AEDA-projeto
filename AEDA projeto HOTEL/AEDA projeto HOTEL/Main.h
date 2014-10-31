@@ -9,4 +9,16 @@ using namespace std;
 
 void main();
 
-#endif;
+void main_menu();
+
+void menu_pessoas();
+void menu_clientes();
+void menu_funcionarios();
+
+void menu_espacos();
+void menu_salas();
+void menu_quartos();
+
+void menu_reservas();
+
+#endif

@@ -19,6 +19,6 @@ public:
 	int getTotal(){ return this->total_a_pagar; }
 
 	/* Metodos read*/
-	stringstream info();
+	string info();
 };
 #endif;

@@ -9,7 +9,7 @@ Cliente::Cliente(string nome):Pessoa(nome){
 }
 
 //retorna uma string com a informaçao toda do cliente
-stringstream Cliente::info(){
+string Cliente::info(){
 	stringstream ss;
 
 	ss << "Cliente " << nome << " : " <<"Total a pagar: " << total_a_pagar << endl;//formatar a string
@@ -17,13 +17,13 @@ stringstream Cliente::info(){
 
 	if (espacos.size() == 0){//se nao tiver espacos atribuidos
 		ss << " none" << endl;
-		return ss;
+		return ss.str();
 	}
 	
 	for (int i = 0; i < espacos.size(); i++){//percorre vetor e cria a string
 		ss << " <" << espacos[i]->getNomeEspaco() << "," << espacos[i]->getPreco() << ">,";
 	}
-	return ss;
+	return ss.str();
 }
 
 
