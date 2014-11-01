@@ -9,16 +9,32 @@ using namespace std;
 
 void main();
 
-void main_menu();
+void main_menu(Hotel hotel);
 
-void menu_pessoas();
-void menu_clientes();
-void menu_funcionarios();
+void menu_pessoas(Hotel hotel);
 
-void menu_espacos();
-void menu_salas();
-void menu_quartos();
+void menu_clientes(Hotel hotel);
+void menu_adiciona_cliente(Hotel hotel);
+void menu_remove_cliente(Hotel hotel);
+void menu_remove_espaco_cli(Hotel hotel);
+void menu_add_espaco_cli(Hotel hotel);
+void menu_update_nome_cli(Hotel hotel);
+void menu_update_espaco_cli(Hotel hotel);
 
-void menu_reservas();
+void menu_funcionarios(Hotel hotel);
+void menu_adiciona_funcionario(Hotel hotel);
+void menu_remove_funcionario(Hotel hotel);
+void menu_remove_espaco_func(Hotel hotel);
+void menu_add_espaco_func(Hotel hotel);
+void menu_update_nome_func(Hotel hotel);
+void menu_update_espaco_func(Hotel hotel);
+
+void menu_espacos(Hotel hotel);
+
+void menu_salas(Hotel hotel);
+
+void menu_quartos(Hotel hotel);
+
+void menu_reservas(Hotel hotel);
 
 #endif

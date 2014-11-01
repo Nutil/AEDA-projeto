@@ -26,5 +26,9 @@ public:
 
 	/* Metodos Sobre Clientes */
 	int soma_totais();
+	int encontra_cliente(string nome);
+	void adiciona_cliente(Hotel hotel, string nome);
+	bool remove_cliente(Hotel hotel, string nome);
+	void display_clientes(Hotel hotel);
 };
 #endif;

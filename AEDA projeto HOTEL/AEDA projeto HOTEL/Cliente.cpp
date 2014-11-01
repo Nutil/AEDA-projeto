@@ -13,7 +13,7 @@ string Cliente::info(){
 	stringstream ss;
 
 	ss << "Cliente " << nome << " : " <<"Total a pagar: " << total_a_pagar << endl;//formatar a string
-	ss << "Espacos atribuidos(Espaco,preco) :";
+	ss << "Espacos atribuidos(Espaco,preco): ";
 
 	if (espacos.size() == 0){//se nao tiver espacos atribuidos
 		ss << " none" << endl;

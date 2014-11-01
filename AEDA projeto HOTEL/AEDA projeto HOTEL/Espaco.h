@@ -12,7 +12,7 @@ class Espaco {
 	int preco;
 public:
 	/*construtor*/
-	Espaco(string nomeEspaco, int preco);
+	Espaco(string nomeEspaco){this->nomeEspaco = nomeEspaco;};
 
 	/*Metodos get*/
 	string getNomeEspaco(){ return nomeEspaco; }

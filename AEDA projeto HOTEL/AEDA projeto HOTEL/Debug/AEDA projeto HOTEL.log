@@ -1,38 +1,143 @@
-﻿Build started 31/10/2014 14:34:53.
+﻿Build started 01/11/2014 09:31:01.
      1>Project "C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\AEDA projeto HOTEL\AEDA projeto HOTEL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cliente.cpp Espaco.cpp Funcionario.cpp Hotel.cpp Main.cpp Pessoa.cpp Quarto.cpp Sala.cpp
+         Main.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2182: 'main_menu' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2182: 'menu_pessoas' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2182: 'menu_clientes' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2182: 'menu_adiciona_cliente' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2182: 'menu_remove_cliente' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2182: 'menu_remove_espaco' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2182: 'menu_add_espaco' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2182: 'menu_update_nome' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2182: 'menu_update_espaco' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2182: 'menu_funcionarios' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2182: 'menu_remove_espaco' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2374: 'menu_remove_espaco' : redefinition; multiple initialization
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19) : see declaration of 'menu_remove_espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2182: 'menu_add_espaco' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2374: 'menu_add_espaco' : redefinition; multiple initialization
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20) : see declaration of 'menu_add_espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2182: 'menu_update_nome' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2374: 'menu_update_nome' : redefinition; multiple initialization
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21) : see declaration of 'menu_update_nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2182: 'menu_update_espaco' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2374: 'menu_update_espaco' : redefinition; multiple initialization
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22) : see declaration of 'menu_update_espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2065: 'Hotel' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2146: syntax error : missing ')' before identifier 'hotel'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2182: 'menu_espacos' : illegal use of type 'void'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2059: syntax error : ')'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(16): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(19): error C2365: 'main_menu' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12) : see declaration of 'main_menu'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(34): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(36): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(42): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(47): error C2365: 'menu_pessoas' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14) : see declaration of 'menu_pessoas'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(62): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(64): error C2064: term does not evaluate to a function taking 0 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(66): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(70): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(76): error C2365: 'menu_clientes' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16) : see declaration of 'menu_clientes'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(95): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(98): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(100): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(102): error C3861: 'menu_update_nome': identifier not found
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(104): error C3861: 'menu_add_espaco': identifier not found
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(106): error C3861: 'menu_remove_espaco': identifier not found
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(108): error C3861: 'menu_update_espaco': identifier not found
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(110): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(114): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(120): error C2365: 'menu_adiciona_cliente' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17) : see declaration of 'menu_adiciona_cliente'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(131): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(133): error C2365: 'menu_remove_cliente' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18) : see declaration of 'menu_remove_cliente'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(149): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(151): error C2365: 'menu_update_nome' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21) : see declaration of 'menu_update_nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(171): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(173): error C2365: 'menu_add_espaco' : redefinition; previous definition was 'data variable'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20) : see declaration of 'menu_add_espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(186): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(204): error C2064: term does not evaluate to a function taking 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(209): fatal error C1075: end of file found before the left brace '{' at 'c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(173)' was matched
+         Hotel.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(17): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(18): error C3867: 'Pessoa::getNome': function call missing argument list; use '&Pessoa::getNome' to create a pointer to member
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(18): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+                 d:\visual studio 2013\vc\include\system_error(410): could be 'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()'
+                 d:\visual studio 2013\vc\include\system_error(402): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()'
+                 d:\visual studio 2013\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
+                 d:\visual studio 2013\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
+                 d:\visual studio 2013\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
+                 while trying to match the argument list '(overloaded-function, std::string)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+         Cliente.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
          Pessoa.cpp
      1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(12): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(23): warning C4018: '<' : signed/unsigned mismatch
      1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(46): warning C4018: '<' : signed/unsigned mismatch
-         Main.cpp
-         Hotel.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(10): warning C4018: '<' : signed/unsigned mismatch
          Funcionario.cpp
      1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(25): warning C4018: '<' : signed/unsigned mismatch
-         Cliente.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(23): warning C4018: '<' : signed/unsigned mismatch
          Generating Code...
          Skipping... (no relevant changes detected)
          Sala.cpp
          Quarto.cpp
          Espaco.cpp
-       Link:
-         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.lib" /MACHINE:X86 Debug\Cliente.obj
-         Debug\Espaco.obj
-         Debug\Funcionario.obj
-         Debug\Hotel.obj
-         Debug\Main.obj
-         Debug\Pessoa.obj
-         Debug\Quarto.obj
-         Debug\Sala.obj
-     1>Main.obj : error LNK2019: unresolved external symbol "void __cdecl menu_pessoas(void)" (?menu_pessoas@@YAXXZ) referenced in function "void __cdecl main_menu(void)" (?main_menu@@YAXXZ)
-     1>Main.obj : error LNK2019: unresolved external symbol "void __cdecl menu_espacos(void)" (?menu_espacos@@YAXXZ) referenced in function "void __cdecl main_menu(void)" (?main_menu@@YAXXZ)
-     1>Main.obj : error LNK2019: unresolved external symbol "void __cdecl menu_reservas(void)" (?menu_reservas@@YAXXZ) referenced in function "void __cdecl main_menu(void)" (?main_menu@@YAXXZ)
-     1>C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\Debug\AEDA projeto HOTEL.exe : fatal error LNK1120: 3 unresolved externals
      1>Done Building Project "C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\AEDA projeto HOTEL\AEDA projeto HOTEL.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:04.57
+Time Elapsed 00:00:04.50

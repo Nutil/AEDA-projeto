@@ -32,6 +32,7 @@ public:
 	bool add_espaco(Espaco espaco);
 	void update_nome(string nome);
 	bool update_espacos(vector<Espaco *> vetor);
+
 	
 };
 #endif

@@ -20,5 +20,6 @@ public:
 
 	/* Metodos read*/
 	string info();
+
 };
 #endif;
