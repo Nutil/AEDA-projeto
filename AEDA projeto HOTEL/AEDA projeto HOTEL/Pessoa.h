@@ -1,10 +1,7 @@
 #ifndef PESSOA_H_
 #define PESSOA_H_
-#include <string>
-#include <vector>
-#include <iostream>
-#include "Espaco.h"
-#include <sstream>
+
+#include "Hotel.h"
 
 using namespace std;
 

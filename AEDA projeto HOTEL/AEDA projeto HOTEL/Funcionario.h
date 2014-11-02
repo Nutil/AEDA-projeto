@@ -1,10 +1,7 @@
 #ifndef FUNCIONARIO_H_
 #define FUNCIONARIO_H_
-#include <string>
-#include <vector>
-#include <iostream>
-#include "Espaco.h"
-#include "Pessoa.h"
+
+#include "Hotel.h"
 
 using namespace std;
 

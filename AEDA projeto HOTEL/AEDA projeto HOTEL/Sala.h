@@ -1,10 +1,7 @@
 #ifndef SALA_H_
 #define SALA_H_
-#include <iostream>
-#include <string>
-#include <vector>
-#include "Espaco.h"
 
+#include "Hotel.h"
 
 using namespace std;
 

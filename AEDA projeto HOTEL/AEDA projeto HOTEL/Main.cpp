@@ -1,20 +1,40 @@
-#include "Main.h"
 #include "Hotel.h"
-#include "Pessoa.h"
-#include "Cliente.h"
-#include "Funcionario.h"
-#include "Espaco.h"
-#include "Sala.h"
-#include "Quarto.h"
 #include <stdio.h>
 
 using namespace std;
+void main();
 
+void main_menu(Hotel hotel);
 
-void main(){
-	Hotel hotel; 
-	main_menu(hotel);
-}
+void menu_pessoas(Hotel hotel);
+
+void menu_clientes(Hotel hotel);
+void menu_adiciona_cliente(Hotel hotel);
+void menu_remove_cliente(Hotel hotel);
+void menu_remove_espaco_cli(Hotel hotel);
+void menu_add_espaco_cli(Hotel hotel);
+void menu_update_nome_cli(Hotel hotel);
+void menu_update_espaco_cli(Hotel hotel);
+
+void menu_funcionarios(Hotel hotel);
+
+void menu_adiciona_funcionario(Hotel hotel);
+void menu_remove_funcionario(Hotel hotel);
+void menu_remove_espaco_func(Hotel hotel);
+void menu_add_espaco_func(Hotel hotel);
+void menu_update_nome_func(Hotel hotel);
+void menu_update_espaco_func(Hotel hotel);
+void menu_update_ordenado_func(Hotel hotel);
+/*
+void menu_espacos(Hotel hotel);
+
+void menu_salas(Hotel hotel);
+
+void menu_quartos(Hotel hotel);
+
+void menu_reservas(Hotel hotel);
+*/
+
 
 void main_menu(Hotel hotel){
 	system("cls");
@@ -29,14 +49,18 @@ void main_menu(Hotel hotel){
 
 	cout << "A que menu deseja aceder? : ";
 	cin >> selecao;
-
+	if (cin.fail()){
+		cout << "Por favor escolha uma opcao existente";
+		system("pause");
+		menu_clientes(hotel);
+	}
 	switch (selecao){
 	case 1: menu_pessoas(hotel);
 		break;
-	case 2: menu_espacos(hotel);
+	/*case 2: menu_espacos(hotel);
 		break;
 	case 3: menu_reservas(hotel);
-		break;
+		break;*/
 	default: cout << endl << endl << "Por favor escolha uma opcao existente" << endl;
 		system("pause");
 		main_menu(hotel);
@@ -44,6 +68,7 @@ void main_menu(Hotel hotel){
 	}
 
 }
+
 void menu_pessoas(Hotel hotel){
 	system("cls");
 
@@ -57,12 +82,16 @@ void menu_pessoas(Hotel hotel){
 
 	cout << "A que menu deseja aceder? :";
 	cin >> selecao;
-
+	if (cin.fail()){
+		cout << "Por favor escolha uma opcao existente";
+		system("pause");
+		menu_clientes(hotel);
+	}
 	switch (selecao){
 	case 1: menu_clientes(hotel);
 		break;
-	case 2: menu_funcionarios(hotel);
-		break;
+	/*case 2: menu_funcionarios(hotel);
+		break;*/
 	case 0: main_menu(hotel);
 		break;
 	default: cerr << "Por favor escolha uma opcao existente";
@@ -73,6 +102,7 @@ void menu_pessoas(Hotel hotel){
 
 
 }
+
 void menu_clientes(Hotel hotel){
 	system("cls");
 
@@ -89,10 +119,11 @@ void menu_clientes(Hotel hotel){
 	int selecao;
 	cout << "O que pretende fazer?" << endl << endl;
 	cin >> selecao;
-	if (cin.fail())
-		cout << "Por favor escolha uma opcao existente";
+	if (cin.fail()){
+	cout << "Por favor escolha uma opcao existente";
 	system("pause");
 	menu_clientes(hotel);
+}
 
 	switch (selecao){
 	case 1: menu_adiciona_cliente(hotel);
@@ -116,15 +147,16 @@ void menu_clientes(Hotel hotel){
 	}
 
 }
-
 void menu_adiciona_cliente(Hotel hotel){
 	system("cls");
 	string nomecliente;
 	cout << "Por favor indique o nome do cliente que pretende adicionar : ";
-	getline(cin,nomecliente);
-	hotel.adiciona_cliente(hotel, nomecliente);
+	cin.ignore();
+	cin.clear();
+	getline(cin, nomecliente);
+	hotel.adiciona_cliente(nomecliente);
 	cout << " \nO seu cliente foi adicionado. Lista dos clientes atuais:" << endl << endl;
-	hotel.display_clientes(hotel);
+	hotel.display_clientes();
 	cout << endl << "O programa voltará ao menu de gestão de clientes" << endl;
 	system("pause");
 
@@ -135,14 +167,14 @@ void menu_remove_cliente(Hotel hotel){
 	string nomecliente;
 	cout << "Por favor indique o nome do cliente que pretende remover : ";
 	getline(cin,nomecliente);
-	if (hotel.remove_cliente(hotel, nomecliente)){
+	if (hotel.remove_cliente(nomecliente)){
 		cout << " \nO seu cliente foi removido. Lista dos clientes atuais:" << endl << endl;
 	}
 	else {
 		cout << "\nO seu cliente nao existe no hotel. Lista dos clientes atuais:" << endl << endl;
 	}
 
-	hotel.display_clientes(hotel);
+	hotel.display_clientes();
 	cout << endl << "O programa voltará ao menu de gestão de clientes" << endl;
 	system("pause");
 
@@ -161,11 +193,11 @@ void menu_update_nome_cli(Hotel hotel){
 	}
 	//encontrou
 	else {
-		hotel.getClientes()[i]->update_nome(nomeCli);
+		hotel.getClientes()[i]->update_nome(nomeCli);// isto funciona?
 		cout << "O nome do seu cliente foi atualizado. Lista de clientes atuais :" << endl << endl;
 	}
 
-	hotel.display_clientes(hotel);
+	hotel.display_clientes();
 	cout << endl << "O programa voltará ao menu de gestão de clientes" << endl;
 	system("pause");
 	menu_clientes(hotel);
@@ -180,8 +212,8 @@ void menu_add_espaco_cli(Hotel hotel){
 	//Nao encontrou
 	if (i == -1){
 		cout << endl << "Nao encontramos nenhum cliente com esse nome. Lista de clientes atuais :" << endl;
-		hotel.display_clientes(hotel);
-		cout << endl << "O programa voltará ao menu de gestão de clientes" << endl;
+		hotel.display_clientes();
+		cout << endl << "O programa voltara ao menu de gestao de clientes" << endl;
 		system("pause");
 		menu_clientes(hotel);
 	}
@@ -216,7 +248,7 @@ void menu_remove_espaco_cli(Hotel hotel){
 	//Nao encontrou
 	if (i == -1){
 		cout << endl << "Nao encontramos nenhum cliente com esse nome. Lista de clientes atuais :" << endl;
-		hotel.display_clientes(hotel);
+		hotel.display_clientes();
 		cout << endl << "O programa voltará ao menu de gestão de clientes" << endl;
 		system("pause");
 		menu_clientes(hotel);
@@ -254,7 +286,7 @@ void menu_update_espaco_cli(Hotel hotel){
 	//Nao encontrou
 	if (i == -1){
 		cout << endl << "Nao encontramos nenhum cliente com esse nome. Lista de clientes atuais :" << endl;
-		hotel.display_clientes(hotel);
+		hotel.display_clientes();
 		cout << endl << "O programa voltará ao menu de gestão de clientes" << endl;
 		system("pause");
 		menu_clientes(hotel);
@@ -281,4 +313,113 @@ void menu_update_espaco_cli(Hotel hotel){
 
 
 
+}
+
+void menu_funcionarios(Hotel hotel){
+	system("cls");
+
+	cout << "-----------Gestao Funcionarios-----------" << endl << endl;
+
+	cout << "1. Adicionar Funcionario" << endl;
+	cout << "2. Remover Funcionario" << endl;
+	cout << "3. Atualizar nome" << endl;
+	cout << "4. Adicionar espaco" << endl;
+	cout << "5. Remover espaco" << endl;
+	cout << "6. Atualizar espaco" << endl << endl;
+	cout << "0. Voltar atras" << endl << endl;
+
+	int selecao;
+	cout << "O que pretende fazer?" << endl << endl;
+	cin >> selecao;
+	if (cin.fail()){
+		cout << "Por favor escolha uma opcao existente";
+		system("pause");
+		menu_funcionarios(hotel);
+	}
+
+	switch (selecao){
+	case 1: menu_adiciona_funcionario(hotel);
+		break;
+	case 2: menu_remove_funcionario(hotel);
+		break;
+	case 3: menu_update_nome_func(hotel);
+		break;
+	case 4: menu_add_espaco_func(hotel);
+		break;
+	case 5: menu_remove_espaco_func(hotel);
+		break;
+	case 6: menu_update_espaco_func(hotel);
+		break;
+	case 7: menu_update_ordenado_func(hotel);
+		break;
+	case 0: menu_pessoas(hotel);
+		break;
+	default: cerr << "Por favor escolha uma opcao existente";
+		system("pause");
+		menu_funcionarios(hotel);
+		break;
+	}
+
+
+}
+void menu_adiciona_funcionario(Hotel hotel){
+	system("cls");
+	string nomefuncionario;
+	cout << "Por favor indique o nome do funcionario que pretende adicionar : ";
+	cin.ignore();
+	cin.clear();
+	getline(cin, nomefuncionario);
+	hotel.adiciona_funcionario(nomefuncionario);
+	cout << " \nO seu funcionario foi adicionado. Lista dos funcionarios atuais:" << endl << endl;
+	hotel.display_funcionarios();
+	cout << endl << "O programa voltará ao menu de gestão de funcionarios" << endl;
+	system("pause");
+
+	menu_funcionarios(hotel);
+
+}
+void menu_remove_funcionario(Hotel hotel){
+	system("cls");
+	string nomefuncionario;
+	cout << "Por favor indique o nome do funcionario que pretende remover : ";
+	getline(cin, nomefuncionario);
+	if (hotel.remove_funcionario(nomefuncionario)){
+		cout << " \nO seu funcionario foi removido. Lista dos funcionarios atuais:" << endl << endl;
+	}
+	else {
+		cout << "\nO seu funcionario nao existe no hotel. Lista dos funcionarios atuais:" << endl << endl;
+	}
+	
+	hotel.display_funcionarios();
+	cout << endl << "O programa voltará ao menu de gestão de funcionarios" << endl;
+	system("pause");
+
+	menu_funcionarios(hotel);
+}
+void menu_update_nome_func(Hotel hotel){
+	system("cls");
+
+	string nomefunc;
+	cout << "Por favor insira o nome do funcionario que pretende atualizar";
+	getline(cin, nomefunc);
+	int i = hotel.encontra_funcionario(nomefunc);
+	//Nao encontrou
+	if (i == -1){
+		cout << endl << "Nao encontramos nenhum funcionario com esse nome. Lista de funcionarios atuais :" << endl;
+	}
+	//encontrou
+	else {
+		hotel.getFuncionarios()[i]->update_nome(nomefunc);// isto funciona?
+		cout << "O nome do seu funcionario foi atualizado. Lista de funcionarios atuais :" << endl << endl;
+	}
+
+	hotel.display_funcionarios();
+	cout << endl << "O programa voltará ao menu de gestão de funcionarios" << endl;
+	system("pause");
+	menu_funcionarios(hotel);
+}
+
+void main(){
+	Hotel hotel;
+	main_menu(hotel);
 }

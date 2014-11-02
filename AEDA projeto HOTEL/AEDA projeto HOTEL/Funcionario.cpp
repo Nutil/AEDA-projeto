@@ -6,11 +6,9 @@ using namespace std;
 Funcionario::Funcionario(string nome) :Pessoa(nome){
 	this->ordenado = 0;
 }
-
 void Funcionario::update_Ordenado(int valor){
 	this->ordenado = valor;
 }
-
 string Funcionario::info(){
 	stringstream ss;
 

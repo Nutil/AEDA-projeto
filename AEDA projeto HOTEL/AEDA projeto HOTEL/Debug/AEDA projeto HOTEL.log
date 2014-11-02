@@ -1,143 +1,527 @@
-﻿Build started 01/11/2014 09:31:01.
+﻿Build started 02/11/2014 13:55:55.
      1>Project "C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\AEDA projeto HOTEL\AEDA projeto HOTEL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          D:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cliente.cpp Espaco.cpp Funcionario.cpp Hotel.cpp Main.cpp Pessoa.cpp Quarto.cpp Sala.cpp
+         Sala.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+         Quarto.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
+         Pessoa.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(8): error C2504: 'Pessoa' : base class undefined
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(8): error C2504: 'Pessoa' : base class undefined
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(46): warning C4018: '<' : signed/unsigned mismatch
          Main.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2182: 'main_menu' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2182: 'menu_pessoas' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2182: 'menu_clientes' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2182: 'menu_adiciona_cliente' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2182: 'menu_remove_cliente' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2182: 'menu_remove_espaco' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2182: 'menu_add_espaco' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2182: 'menu_update_nome' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2182: 'menu_update_espaco' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2182: 'menu_funcionarios' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(24): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2182: 'menu_remove_espaco' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2374: 'menu_remove_espaco' : redefinition; multiple initialization
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(19) : see declaration of 'menu_remove_espaco'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(25): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2182: 'menu_add_espaco' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2374: 'menu_add_espaco' : redefinition; multiple initialization
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20) : see declaration of 'menu_add_espaco'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(26): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2182: 'menu_update_nome' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2374: 'menu_update_nome' : redefinition; multiple initialization
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21) : see declaration of 'menu_update_nome'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(27): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2182: 'menu_update_espaco' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2374: 'menu_update_espaco' : redefinition; multiple initialization
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(22) : see declaration of 'menu_update_espaco'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(28): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2065: 'Hotel' : undeclared identifier
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2146: syntax error : missing ')' before identifier 'hotel'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2182: 'menu_espacos' : illegal use of type 'void'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(30): error C2059: syntax error : ')'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(16): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(19): error C2365: 'main_menu' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(12) : see declaration of 'main_menu'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(34): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(36): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(42): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(47): error C2365: 'menu_pessoas' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(14) : see declaration of 'menu_pessoas'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(62): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(64): error C2064: term does not evaluate to a function taking 0 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(66): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(70): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(76): error C2365: 'menu_clientes' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(16) : see declaration of 'menu_clientes'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(95): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(98): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(100): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(102): error C3861: 'menu_update_nome': identifier not found
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(104): error C3861: 'menu_add_espaco': identifier not found
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(106): error C3861: 'menu_remove_espaco': identifier not found
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(108): error C3861: 'menu_update_espaco': identifier not found
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(110): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(114): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(120): error C2365: 'menu_adiciona_cliente' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(17) : see declaration of 'menu_adiciona_cliente'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(131): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(133): error C2365: 'menu_remove_cliente' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(18) : see declaration of 'menu_remove_cliente'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(149): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(151): error C2365: 'menu_update_nome' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(21) : see declaration of 'menu_update_nome'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(171): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(173): error C2365: 'menu_add_espaco' : redefinition; previous definition was 'data variable'
-                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.h(20) : see declaration of 'menu_add_espaco'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(186): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(204): error C2064: term does not evaluate to a function taking 1 arguments
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(209): fatal error C1075: end of file found before the left brace '{' at 'c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(173)' was matched
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(43): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(46): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(47): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(48): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(50): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(51): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(52): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(52): error C2228: left of '.fail' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(53): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(64): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(64): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(64): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(75): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(79): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(80): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(81): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(83): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(84): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(85): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(85): error C2228: left of '.fail' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(86): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(97): error C2065: 'cerr' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(109): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(111): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(112): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(113): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(114): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(115): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(116): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(117): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(120): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(121): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(122): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(122): error C2228: left of '.fail' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(123): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(143): error C2065: 'cerr' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(153): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(154): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(154): error C2228: left of '.ignore' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(155): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(155): error C2228: left of '.clear' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(156): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(158): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(160): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(160): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(160): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(168): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(169): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(171): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(174): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(178): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(178): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(178): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(187): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(188): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(192): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(192): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(192): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(196): error C2660: 'Pessoa::update_nome' : function does not take 1 arguments
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(197): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(201): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(201): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(201): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(209): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(210): error C2065: 'cin' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(214): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(214): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(214): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(216): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(216): error C2563: mismatch in formal parameter list
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(216): error C2568: '<<' : unable to resolve function overload
+                 d:\visual studio 2013\vc\include\ostream(997): could be 'std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(223): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\main.cpp(223): fatal error C1003: error count exceeds 100; stopping compilation
          Hotel.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
      1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(10): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(17): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(18): error C3867: 'Pessoa::getNome': function call missing argument list; use '&Pessoa::getNome' to create a pointer to member
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(18): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'overloaded-function' (or there is no acceptable conversion)
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(17): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
                  d:\visual studio 2013\vc\include\system_error(410): could be 'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()'
                  d:\visual studio 2013\vc\include\system_error(402): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()'
                  d:\visual studio 2013\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
                  d:\visual studio 2013\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
                  d:\visual studio 2013\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
-                 while trying to match the argument list '(overloaded-function, std::string)'
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(32): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(42): warning C4018: '<' : signed/unsigned mismatch
-         Cliente.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(23): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-         Compiling...
-         Pessoa.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(12): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(23): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+                 while trying to match the argument list '(int, std::string)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(24): error C2664: 'Cliente::Cliente(const Cliente &)' : cannot convert argument 1 from 'std::string' to 'const Cliente &'
+                 Reason: cannot convert from 'std::string' to 'const Cliente'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(31): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
+                 d:\visual studio 2013\vc\include\system_error(410): could be 'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()'
+                 d:\visual studio 2013\vc\include\system_error(402): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()'
+                 d:\visual studio 2013\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
+                 d:\visual studio 2013\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
+                 d:\visual studio 2013\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
+                 while trying to match the argument list '(int, std::string)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(41): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(47): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(48): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
+                 d:\visual studio 2013\vc\include\system_error(410): could be 'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()'
+                 d:\visual studio 2013\vc\include\system_error(402): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()'
+                 d:\visual studio 2013\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
+                 d:\visual studio 2013\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
+                 d:\visual studio 2013\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
+                 while trying to match the argument list '(int, std::string)'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(56): error C2065: 'cout' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(60): error C2664: 'Funcionario::Funcionario(const Funcionario &)' : cannot convert argument 1 from 'std::string' to 'const Funcionario &'
+                 Reason: cannot convert from 'std::string' to 'const Funcionario'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.cpp(67): error C2678: binary '==' : no operator found which takes a left-hand operand of type 'int' (or there is no acceptable conversion)
+                 d:\visual studio 2013\vc\include\system_error(410): could be 'bool std::operator ==(const std::error_condition &,const std::error_code &) throw()'
+                 d:\visual studio 2013\vc\include\system_error(402): or       'bool std::operator ==(const std::error_code &,const std::error_condition &) throw()'
+                 d:\visual studio 2013\vc\include\exception(507): or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t)'
+                 d:\visual studio 2013\vc\include\exception(502): or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &)'
+                 d:\visual studio 2013\vc\include\exception(497): or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &)'
+                 while trying to match the argument list '(int, std::string)'
          Funcionario.cpp
-     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(25): warning C4018: '<' : signed/unsigned mismatch
-         Generating Code...
-         Skipping... (no relevant changes detected)
-         Sala.cpp
-         Quarto.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(20): error C2065: 'Funcionario' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(20): error C2059: syntax error : '>'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(20): error C2976: 'std::vector' : too few template arguments
+                 d:\visual studio 2013\vc\include\vector(650) : see declaration of 'std::vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(28): error C2065: 'Funcionario' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(28): error C2059: syntax error : '>'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(28): error C2976: 'std::vector' : too few template arguments
+                 d:\visual studio 2013\vc\include\vector(650) : see declaration of 'std::vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(28): error C2663: 'std::vector<_Ty,_Alloc>::vector' : 8 overloads have no legal conversion for 'this' pointer
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(6): error C2664: 'Pessoa::Pessoa(const Pessoa &)' : cannot convert argument 1 from 'std::string' to 'const Pessoa &'
+                 Reason: cannot convert from 'std::string' to 'const Pessoa'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(15): error C2065: 'nome' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(18): error C2065: 'espacos' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(18): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(23): error C2065: 'espacos' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(23): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(24): error C2065: 'espacos' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.cpp(24): error C2227: left of '->getNomeEspaco' must point to class/struct/union/generic type
          Espaco.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.h(18): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(9): error C2504: 'Espaco' : base class undefined
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(8): error C2504: 'Espaco' : base class undefined
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(19): error C2065: 'Espaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(19): error C2059: syntax error : '>'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(19): error C2976: 'std::vector' : too few template arguments
+                 d:\visual studio 2013\vc\include\vector(650) : see declaration of 'std::vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(27): error C2065: 'Espaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(27): error C2059: syntax error : '>'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(27): error C2976: 'std::vector' : too few template arguments
+                 d:\visual studio 2013\vc\include\vector(650) : see declaration of 'std::vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(27): error C2663: 'std::vector<_Ty,_Alloc>::vector' : 8 overloads have no legal conversion for 'this' pointer
+         Cliente.cpp
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C2146: syntax error : missing ';' before identifier 'nome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(11): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2146: syntax error : missing ';' before identifier 'getNome'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): warning C4183: 'getNome': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2143: syntax error : missing ';' before '<'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(19): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2433: 'Pessoa::string' : 'virtual' not permitted on data declarations
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(28): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(29): error C2061: syntax error : identifier 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(30): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(31): error C2061: syntax error : identifier 'vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(22): error C2253: 'Pessoa::info' : pure specifier or abstract override specifier only allowed on virtual function
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(18): error C2039: 'nome' : is not a member of 'Pessoa'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\pessoa.h(8) : see declaration of 'Pessoa'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(12): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C2146: syntax error : missing ';' before identifier 'info'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\funcionario.h(15): warning C4183: 'info': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C2146: syntax error : missing ';' before identifier 'nomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2146: syntax error : missing ';' before identifier 'getNomeEspaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): warning C4183: 'getNomeEspaco': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(22): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(23): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(15): error C2065: 'nomeEspaco' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(18): error C2039: 'nomeEspaco' : is not a member of 'Espaco'
+                 c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\espaco.h(9) : see declaration of 'Espaco'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\quarto.h(14): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\sala.h(15): error C2061: syntax error : identifier 'string'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(21): error C2065: 'Cliente' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(21): error C2059: syntax error : '>'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(21): error C2976: 'std::vector' : too few template arguments
+                 d:\visual studio 2013\vc\include\vector(650) : see declaration of 'std::vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(29): error C2065: 'Cliente' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(29): error C2059: syntax error : '>'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(29): error C2976: 'std::vector' : too few template arguments
+                 d:\visual studio 2013\vc\include\vector(650) : see declaration of 'std::vector'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\hotel.h(29): error C2663: 'std::vector<_Ty,_Alloc>::vector' : 8 overloads have no legal conversion for 'this' pointer
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(7): error C2664: 'Pessoa::Pessoa(const Pessoa &)' : cannot convert argument 1 from 'std::string' to 'const Pessoa &'
+                 Reason: cannot convert from 'std::string' to 'const Pessoa'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(14): error C2065: 'nome' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(17): error C2065: 'espacos' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(17): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(22): error C2065: 'espacos' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(22): error C2228: left of '.size' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(23): error C2065: 'espacos' : undeclared identifier
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(23): error C2227: left of '->getNomeEspaco' must point to class/struct/union/generic type
+     1>c:\users\luisf\documents\github\aeda-projeto\aeda projeto hotel\aeda projeto hotel\cliente.cpp(23): error C2227: left of '->getPreco' must point to class/struct/union/generic type
+         Generating Code...
      1>Done Building Project "C:\Users\LuisF\Documents\GitHub\AEDA-projeto\AEDA projeto HOTEL\AEDA projeto HOTEL\AEDA projeto HOTEL.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:04.50
+Time Elapsed 00:00:03.32

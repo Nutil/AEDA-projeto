@@ -1,4 +1,4 @@
-#ifndef MAIN_H_
+/*#ifndef MAIN_H_
 #define MAIN_H_
 #include <iostream>
 #include <string>
@@ -21,7 +21,7 @@ void menu_add_espaco_cli(Hotel hotel);
 void menu_update_nome_cli(Hotel hotel);
 void menu_update_espaco_cli(Hotel hotel);
 
-void menu_funcionarios(Hotel hotel);
+/*void menu_funcionarios(Hotel hotel);
 void menu_adiciona_funcionario(Hotel hotel);
 void menu_remove_funcionario(Hotel hotel);
 void menu_remove_espaco_func(Hotel hotel);
@@ -36,5 +36,5 @@ void menu_salas(Hotel hotel);
 void menu_quartos(Hotel hotel);
 
 void menu_reservas(Hotel hotel);
-
-#endif
+*/
+//#endif

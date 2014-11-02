@@ -7,7 +7,6 @@ using namespace std;
 Cliente::Cliente(string nome):Pessoa(nome){
 	this->total_a_pagar = 0;
 }
-
 //retorna uma string com a informaçao toda do cliente
 string Cliente::info(){
 	stringstream ss;
