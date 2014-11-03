@@ -3,6 +3,7 @@
 #include <string>
 #include <sstream>
 using namespace std;
+
 class Date
 {
 
@@ -14,8 +15,9 @@ public:
 	void setDia(int new_day) {this->dia = new_day; return;};
 	void setMes(int new_mes) {this->mes = new_mes; return;};
 	void setAno(int new_ano) {this->ano = new_ano; return;};
-	friend string operator<< (ostream & os , const Date & d1);
+	friend ostream & operator<< (ostream & os, const Date & d1);
 	bool operator > (const Date &d1)const;
+	Date & operator++(int);
 
 private:
 	int ano,mes,dia;

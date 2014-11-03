@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 using namespace std;
-void main();
+
 
 void main_menu(Hotel hotel);
 
@@ -419,7 +419,9 @@ void menu_update_nome_func(Hotel hotel){
 	menu_funcionarios(hotel);
 }
 
-void main(){
+int main(){
 	Hotel hotel;
 	main_menu(hotel);
+	//sempre int main, o eclipse comeca a espumar-se t0do -Alexandre
+	return 0;
 }

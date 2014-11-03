@@ -75,6 +75,8 @@ void test_hote_e_espacos() {
 	ASSERT_EQUAL(900, h.get_salas()[0]->get_cost());
 	ASSERT_EQUAL(500, h.get_salas()[1]->get_cost());
 	ASSERT_EQUAL(750, h.get_salas()[2]->get_cost());
+	//as funçoes trabalham individualmente para os quartos e para sala
+	//desta maneira:
 
 }
 

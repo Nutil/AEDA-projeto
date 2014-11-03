@@ -1,5 +1,5 @@
 #include "Hotel.h"
-#include<stdio.h>
+
 
 
 using namespace std;
@@ -7,7 +7,7 @@ using namespace std;
 /*ESPACOS*/
 void Hotel::add_sala(Sala *s){
 	s->set_base_price(this->sala_base_price);
-	this->salas.push_back(s);
+	this->espacos.push_back(s);
 	return;
 }
 
@@ -63,7 +63,7 @@ void Hotel::add_quarto(Quarto *q){
 	else
 	q->set_base_price(this->duplo_base_price);
 
-	this->quartos.push_back(q);
+	this->espacos.push_back(q);
 
 	/*
 	 * Problema: Preço base engloba quarto simples e duplo e depois faz-se um add ao preço base para quartos duplos

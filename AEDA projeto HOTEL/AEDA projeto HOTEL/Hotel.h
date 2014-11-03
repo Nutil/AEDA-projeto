@@ -6,7 +6,7 @@
 #include "Funcionario.h"
 #include "Espaco.h"
 #include <vector>
-#include <stdio.h>
+#include <iostream>
 #include <string>
 #include <sstream>
 
@@ -21,9 +21,10 @@ class Hotel{
 	float sala_video_taxa;
 	float sala_audio_taxa;
 
+
 	vector<Sala* > salas;
 	vector<Quarto *> quartos;
-	//vector<Espaco *> espacos; de momento não é necessario
+	vector<Espaco *> espacos;
 	vector<Funcionario *> funcionarios;
 	vector<Cliente *> clientes; 
 public:
@@ -33,6 +34,7 @@ public:
 	Hotel(){}
 	vector<Quarto *> get_quartos(){return this->quartos;}
 	vector<Sala *> get_salas(){return this->salas;}
+	vector<Espaco *> get_espacos(){return this->espacos;};
 	void add_quarto(Quarto *q);
 	void add_sala(Sala *s);
 
@@ -57,7 +59,7 @@ public:
 	float get_quarto_taxa(string location);
 	
 	/*Metodos get*/
-	//vector<Espaco *> getEspacos(){ return espacos; }
+	vector<Espaco *> getEspacos(){ return espacos; }
 	vector<Funcionario *> getFuncionarios(){ return funcionarios; }
 	vector<Cliente *> getClientes(){ return clientes; }
 

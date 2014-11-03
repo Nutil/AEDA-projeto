@@ -8,7 +8,8 @@ using namespace std;
 class Pessoa{
 protected:	
 	string nome;
-	vector<Espaco *> espacos;
+
+//	vector<Espaco *> espacos;
 public:
 	/* Construtor e metodos construçao*/
 	Pessoa(string nome);
@@ -16,7 +17,7 @@ public:
 
 	/* Metodos get */
 	string getNome(){ return this->nome;}
-	vector<Espaco *> getEspacos(){ return this->espacos;}
+	//vector<Espaco *> getEspacos(){ return this->espacos;}
 
 	/* Metodos read */
 	virtual string info() = 0;
@@ -25,11 +26,47 @@ public:
 	bool delete_espacos();
 
 	/* Metodos update */
-	bool remove_espaco(Espaco espaco);
-	bool add_espaco(Espaco espaco);
-	void update_nome(string nome);
-	bool update_espacos(vector<Espaco *> vetor);
+//	bool remove_espaco(Espaco espaco);
+//	bool add_espaco(Espaco espaco);
+//	void update_nome(string nome);
+//	bool update_espacos(vector<Espaco *> vetor);
 
 	
 };
+
+class Funcionario:public Pessoa{
+	int ordenado;
+	int id;
+	static int _ID;
+public:
+	/* Construtor e metodos construçao*/
+	Funcionario(string nome);
+
+	/* Metodos read */
+	string info();
+
+	/* Metodos update */
+	void update_Ordenado(int valor);
+
+
+};
+
+class Cliente:public Pessoa{
+	int total_a_pagar;
+	int id;
+	static int _ID;
+
+public:
+	/* Construtor e metodos ADD*/
+	Cliente(string nome);
+
+	/* Metodos get */
+	int getTotal(){ return this->total_a_pagar; }
+
+	/* Metodos read*/
+	string info();
+
+};
+
+
 #endif
