@@ -2,11 +2,9 @@
 #define _HOTEL_H_
 
 #include "Pessoa.h"
-#include "Cliente.h"
-#include "Funcionario.h"
 #include "Espaco.h"
 #include <vector>
-#include <stdio.h>
+#include <iostream>
 #include <string>
 #include <sstream>
 
