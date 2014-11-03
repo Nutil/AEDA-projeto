@@ -1,11 +1,8 @@
 #include "Hotel.h"
 #include <stdio.h>
-#include <string>
-#include <vector>
-
 
 using namespace std;
-int main();
+void main();
 
 void main_menu(Hotel hotel);
 
@@ -205,7 +202,7 @@ void menu_update_nome_cli(Hotel hotel){
 	system("pause");
 	menu_clientes(hotel);
 }
-/*void menu_add_espaco_cli(Hotel hotel){
+void menu_add_espaco_cli(Hotel hotel){
 	system("cls");
 
 	string nomeCli;
@@ -240,8 +237,8 @@ void menu_update_nome_cli(Hotel hotel){
 
 	}
 
-}*/
-/*void menu_remove_espaco_cli(Hotel hotel){
+}
+void menu_remove_espaco_cli(Hotel hotel){
 	system("cls");
 
 	string nomeCli;
@@ -277,9 +274,9 @@ void menu_update_nome_cli(Hotel hotel){
 	}
 
 
-}*/
+}
 /* Esta é uma funcao modelo, so pode ser implementada quando a estrutura de um Espaco estiver completa */
-/*void menu_update_espaco_cli(Hotel hotel){
+void menu_update_espaco_cli(Hotel hotel){
 	system("cls");
 
 	string nomeCli;
@@ -317,7 +314,7 @@ void menu_update_nome_cli(Hotel hotel){
 
 
 }
-*/
+
 void menu_funcionarios(Hotel hotel){
 	system("cls");
 
@@ -422,8 +419,7 @@ void menu_update_nome_func(Hotel hotel){
 	menu_funcionarios(hotel);
 }
 
-int main(){
+void main(){
 	Hotel hotel;
 	main_menu(hotel);
-	return 0;
 }
